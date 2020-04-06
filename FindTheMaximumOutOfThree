@@ -1,0 +1,34 @@
+package com.protonmail.com.com.protonmail.unit;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner myN = new Scanner(System.in);
+        System.out.println("We are going to find the hihgest of all your inputs. Let's start.");
+
+        System.out.println("What is our first number?");
+        int a = myN.nextInt();
+
+        System.out.println("What is our second number?");
+        int b = myN.nextInt();
+
+        System.out.println("What is our third number?");
+        int c = myN.nextInt();
+
+        int max;
+
+        if (a>=b) {
+            if (a > c) ;
+            max = a;
+        }
+        else if (b>=c) {
+            max = b;
+        }
+        else max = c;
+
+        System.out.println("Max = " + max);
+
+
+    }
+}
