@@ -1,0 +1,27 @@
+
+        import java.util.Scanner;
+
+public class Main2 {
+    public static void main(String[] args) {
+        Scanner myN = new Scanner(System.in);
+        System.out.println("We are going to find the hihgest of all your inputs. Let's start.");
+
+        System.out.println("What is our first number?");
+        int a = myN.nextInt();
+
+        System.out.println("What is our second number?");
+        int b = myN.nextInt();
+
+        System.out.println("What is our third number?");
+        int c = myN.nextInt();
+
+        int max;
+        max = a;
+        if (b>a){
+            max = b;
+        } else if (c>a) {
+            max = c;
+        }
+        System.out.println("Max = " + max);
+    }
+}
